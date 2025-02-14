@@ -1,0 +1,207 @@
+@media screen and (max-width: 1400px) {}
+
+@media screen and (max-width: 1199px) {
+    .card-menu-jour {
+        min-width: 450px;
+        max-width: 450px;
+    }
+
+    .bLeft {
+        left: -190px;
+    }
+
+    .bRight {
+        right: -190px;
+    }
+
+    .navbar-nav {
+        gap: 0px;
+        padding: 0;
+    }
+
+    .navbar-nav li{
+        padding: 10px 20px;
+        background-color: #f6f6f6;
+    }
+
+    .navbar-expand-xl{
+        padding: 0 !important;
+    }
+
+    header .container-fluid{
+        padding: 0 !important;
+    }
+    
+    header button{
+        margin: 20px !important;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .accueil-2 div {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+    }
+
+    .column-footer {
+        grid-template-columns: repeat(1, 1fr) !important;
+    }
+
+    footer h2 {
+        padding: 0 40px;
+    }
+
+    .les-menus-column {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .modalites-column-gauche {
+        padding: 0 50px;
+    }
+
+    .modalites-column-droite {
+        padding: 0 50px;
+    }
+
+    .aides-2-div {
+        padding-right: 20px;
+    }
+
+    .equipe-2 img {
+        width: 60%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .accueil-3 div {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
+    }
+
+    .accueil-5 div {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 10px;
+    }
+
+    footer .column-footer {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .modalites-column {
+        grid-template-columns: repeat(1, 1fr);
+        grid-auto-flow: dense;
+    }
+
+    .modalites-column>*:nth-child(1) {
+        order: 2;
+    }
+
+    .modalites-column>*:nth-child(2) {
+        order: 1;
+    }
+
+    .aides-2-column {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .aides-3 div div {
+        margin: 0 30px;
+    }
+
+    .aides-2-div {
+        padding-right: 0;
+    }
+
+    .equipe-2 img {
+        width: 80%;
+    }
+
+    .contact-2-formulaire {
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .carousel-container {
+        flex-direction: column-reverse;
+    }
+
+    .button-menu-jour i {
+        font-size: 1.5em;
+    }
+
+    .button-menu-jour {
+        width: 40px;
+        height: 40px;
+        top: -20px;
+    }
+
+    .bLeft {
+        left: -50px;
+    }
+
+    .bRight {
+        right: -50px;
+    }
+
+    .card-menu-jour {
+        min-width: 390px;
+        max-width: 390px;
+    }
+
+    .accueil-2 div {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .carousel-menu-jour {
+        background-color: #f5f5f5;
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+
+    .column-footer-droite div {
+        flex-direction: column;
+    }
+
+    .equipe2 .carousel-item {
+        background-color: #ebebeb;
+        padding: 40px 60px;
+    }
+
+    .equipe-2 img {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 398px) {
+    .bLeft {
+        left: -25px;
+    }
+
+    .bRight {
+        right: -25px;
+    }
+
+    .card-menu-jour {
+        min-width: 300px;
+        max-width: 300px;
+    }
+
+    .aides-3 div div {
+        grid-template-columns: repeat(2, 1fr);
+        margin: 0 10px;
+    }
+
+    .modalites-column-gauche {
+        padding: 0;
+    }
+
+    .modalites-column-droite {
+        padding: 0;
+    }
+
+    .equipe-2 .carousel-item {
+        background-color: #ebebeb;
+        padding: 40px 50px;
+    }
+}

@@ -1,0 +1,35 @@
+{
+  "data": [
+    {
+      "id": 1,
+      "full_name": "Maxime Dethier",
+      "role": "Utilisateur",
+      "creation_date": "18 avril 2023",
+      "username": "Max",
+      "email": "max@mail.com",
+      "status": 3,
+      "avatar": ""
+    },
+    {
+      "id": 2,
+      "full_name": "Jonathan Domergue",
+      "role": "Utilisateur",
+      "creation_date": "18 avril 2023",
+      "username": "Jo",
+      "email": "jo@mail.com",
+      "status": 1,
+      "avatar": ""
+    }
+    ,
+    {
+      "id": 0,
+      "full_name": "Wilfrid Petit",
+      "role": "Admin",
+      "creation_date": "18 avril 2023",
+      "username": "Wil",
+      "email": "wil@mail.com",
+      "status": 2,
+      "avatar": ""
+    }
+  ]
+}
