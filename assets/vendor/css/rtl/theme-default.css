@@ -104,8 +104,8 @@ a.bg-primary:hover, a.bg-primary:focus {
 }
 
 .bg-label-primary {
-  background-color: #eae8fd !important;
-  color: #7367f0 !important;
+  background-color: #2d698cff !important;
+  color: white !important;
 }
 
 .bg-primary.bg-glow {
@@ -114,8 +114,8 @@ a.bg-primary:hover, a.bg-primary:focus {
 
 .page-item.active .page-link,
 .pagination li.active > a:not(.page-link) {
-  border-color: #7367f0;
-  background-color: #7367f0;
+  border-color: #2d698cff;
+  background-color: #2d698cff;
   color: #fff;
 }
 
