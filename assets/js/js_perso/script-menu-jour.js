@@ -21,7 +21,6 @@ document.addEventListener("DOMContentLoaded", () => {
     btnMenu.style.display = "none";
 
     async function getMenus() {
-        await new Promise(resolve => setTimeout(resolve, 3000));
         const response = await fetch('/api/menus', { method: 'GET' });
         const allMenus = await response.json();
 

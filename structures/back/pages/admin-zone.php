@@ -119,7 +119,7 @@ include './structures/back/composants/head.php';
                         </div>
                         <div class="mb-3">
                           <label for="ordre_priorite" class="form-label" style="font-size: 18px;">Ajoutez un ordre de priorité </label>
-                          <input type="text" class="form-control mb-2" name="ordre_priorite" id="ordre_priorite" placeholder="Pour "/>
+                          <input type="text" class="form-control mb-2" name="ordre_priorite" id="ordre_priorite" placeholder="Pour les ranger alphabétiquement "/>
                         </div>
                         <div class="mb-3">
                           <label for="ville_latitude" class="form-label" style="font-size: 18px;">Ajoutez une latitude </label>
