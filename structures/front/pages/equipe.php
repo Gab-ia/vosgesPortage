@@ -53,13 +53,12 @@
 			</div>
 		</div>
 
-		<div class="equipe-2-profil">
+		<div class="equipe-2-profil reverse">
+			<img src="/assets/images/sabrina1.webp" class="equipe-2-photo" alt="..." style="margin-top: 20px;">
 			<div class="equipe-2-presentation">
 				<h2>SABRINA</h2>
 				<p style="margin-top: 20px !important;">Sabrina travaille depuis plusieurs années au portage de repas à domicile. Sur la route du lundi au samedi, elle transporte ses repas de Charmes à Chavelot en faisant des petits crochets partout où ses clients l’attendent… Affichant une indéfectible bonne humeur, elle a toujours le sourire et en fait profiter son entourage, ce qui lui permet d’aborder chaleureusement chaque client de sa tournée. Calme et rassurante, Sabrina sait répondre aux questions de chacun : quels plats, quelle cuisson et même quelle est la fête du jour ! Car tout au long de sa tournée, cette généreuse Vosgienne s’adapte au rythme de chacun pour répondre à leurs attentes et prend plus de temps pour ceux qui en ont besoin.</p>
 			</div>
-			<img src="/assets/images/sabrina1.webp" class="equipe-2-photo" alt="..." style="margin-top: 20px;">
-			
 		</div>
 
 		<div class="equipe-2-profil">
@@ -70,12 +69,12 @@
 			</div>
 		</div>
 
-		<div class="equipe-2-profil">
+		<div class="equipe-2-profil reverse">
+			<img src="/assets/images/sabrina2.webp" class="equipe-2-photo" alt="..." style="margin-top: 20px;">
 			<div class="equipe-2-presentation">
 				<h2>SABRINA</h2>
 				<p style="margin-top: 20px !important;">Ce n’est pas une, mais deux Sabrina qui prennent soin des clients à leur domicile ! Arrivée plus récemment, la jeune Sabrina est venue compléter l’équipe, où elle apporte son dynamisme et sa bonne humeur. Très proche de ses clients, Sabrina s’implique complètement dans sa mission. Depuis bientôt un an, elle se rend disponible pour effectuer quotidiennement le portage de repas à domicile en complément de ses deux collègues. Très respectueuse des personnes âgées, Sabrina s’investit complètement dans son rôle et a su rapidement être proche de ses clients. Très rigoureuse dans sa mission, elle connait chacun d’entre eux et sait répondre au mieux à leurs besoins. Organisée et ponctuelle, Sabrina sera toujours à l’heure au rendez-vous du portage à votre domicile.</p>
 			</div>
-			<img src="/assets/images/sabrina2.webp" class="equipe-2-photo" alt="..." style="margin-top: 20px;">
 		</div>
 
 	</section>
