@@ -67,7 +67,8 @@
     <section class="carousel-menu-jour">
         <div class="carousel-container">
                 <div class="carousel">
-                    <div class="test">
+                    <div class="centerAnimation">
+                        <h3 id="animationTitle">Menus en préparation</h3>
                         <div id="loading-animation" style="width: 100%; height: 200px; display: flex; align-items: center; justify-content: center;"></div>
                         <div class="carousel-inner" id="carouselInner"></div>
                     </div>

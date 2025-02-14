@@ -136,17 +136,20 @@ header i {
 .carousel-inner {
     display: flex;
     overflow: visible !important;
-    transition: transform 0.5s ease-in-out;
+    transition: transform 1s ease-in-out;
 }
 
 .carousel-menu-jour {
     background-color: #f5f5f5;
     padding-top: 60px;
     padding-bottom: 0;
+    transition: height 3s ease-in-out;
+    overflow: hidden;
 }
 
-.test {
+.centerAnimation {
     margin: auto;
+    color :#2d698c;
 }
 
 .menusContainer {
@@ -831,7 +834,11 @@ footer i {
 }
 
 .equipe-2-photo {
-    width: 50%;
+    width: 40%;
+}
+
+.reverse {
+    flex-direction: row-reverse;
 }
 
 .carousel-control-prev-icon {

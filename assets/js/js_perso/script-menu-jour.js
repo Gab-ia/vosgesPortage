@@ -6,8 +6,9 @@ let currentIndex = 0;
 document.addEventListener("DOMContentLoaded", () => {
 
     const loadingContainer = document.getElementById("loading-animation");
-    const testContainer = document.querySelector(".test");
     const carouselInner = document.getElementById("carouselInner");
+    const animationTitle = document.getElementById('animationTitle');
+    const btnMenu = document.querySelector(".buttons-menu-jour");
 
     const animation = bodymovin.loadAnimation({
         container: loadingContainer,
@@ -16,6 +17,8 @@ document.addEventListener("DOMContentLoaded", () => {
         loop: true,
         autoplay: true
     });
+
+    btnMenu.style.display = "none";
 
     async function getMenus() {
         await new Promise(resolve => setTimeout(resolve, 3000));
@@ -42,11 +45,19 @@ document.addEventListener("DOMContentLoaded", () => {
         currentIndex = menus.findIndex(menu => new Date(menu.date).toDateString() === today.toDateString());
         if (currentIndex === -1) currentIndex = 0;
 
-        renderCards();
-    }
+        if (menus.length > 0) {
+            loadingContainer.style.display = "none";
+            animationTitle.style.display = "none";
+            btnMenu.style.display = "";
+            renderCards();
+        } else {
+                        
+        }
 
-    getMenus();
+    }
     
+    getMenus();
+
 });
 
 function formatDate(dateStr) {
