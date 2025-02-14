@@ -2,7 +2,7 @@
     <h2>DES QUESTIONS OU DES COMMENTAIRES ? <b>CONTACTEZ-NOUS :</b></h2>
     <div class="container column-footer">
         <div class="column-footer-gauche">
-            <img src="/assets/animations/camion-animé-menu-portage.gif" alt="Camionnette de livraison Vosges Portage animée" width="100%">
+            <img src="/assets/animations/camionette.gif" alt="Camionnette de livraison Vosges Portage animée" width="100%">
         </div>
         <div class="column-footer-droite">
             <p>Votre avis compte beaucoup pour nous, n'hésitez pas à nous contacter et partager vos idées afin d'améliorer nos services.</p>
