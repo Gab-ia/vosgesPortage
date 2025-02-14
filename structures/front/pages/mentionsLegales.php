@@ -42,7 +42,7 @@
                 Propriétaire : <b>Croustillance</b>
                 Adresse : 10 rue de l’Estrey 88440 NOMEXY<br>
                 Responsable publication : Madame Julie BOYE &amp; Monsieur Frédéric PARMENTIER<br>
-                Créateurs : Galbrielle de Oliveira, Kylian Conraux et Theoman Thuran<br>
+                Créateurs : Gabrielle De Oliveira, Kylian Conraux et Theoman Turan<br>
             </p>
 
             <h2>2. Hébergement</h2>
